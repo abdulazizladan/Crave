@@ -1,0 +1,23 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      {{ data.name }}
+    </mat-card-title>
+    <mat-card-subtitle>
+      &#8358; {{data.unit_price}} per {{data.unit}}
+    </mat-card-subtitle>
+  </mat-card-header>
+
+  <img mat-card-image src="./assets/img/item.png">
+
+  <mat-card-content>
+    {{ data.description }}
+  </mat-card-content>
+
+  <mat-card-actions align="end">
+    <button mat-flat-button color="primary">
+      Buy
+    </button>
+  </mat-card-actions>
+
+</mat-card>
