@@ -33,6 +33,24 @@ export class ItemsListComponent implements OnInit {
       description : "description blah blah",
       unit : "cm",
       unit_price : 0
+    },
+    {
+      name : "Item 3",
+      description : "description blah blah",
+      unit : "cm",
+      unit_price : 0
+    },
+    {
+      name : "Item 3",
+      description : "description blah blah",
+      unit : "cm",
+      unit_price : 0
+    },
+    {
+      name : "Item 3",
+      description : "description blah blah",
+      unit : "cm",
+      unit_price : 0
     }
   ]
   }
